@@ -20,3 +20,5 @@ key_name            = "key-pair-test"
 vpc_id              = ""
 subnet_ids          = [""]
 security_group_ids  = [""]
+
+########  other variables  #########

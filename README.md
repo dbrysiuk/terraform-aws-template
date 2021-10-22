@@ -11,8 +11,8 @@ the Terraform state can be managed centrally for each environment using the remo
 
 ## Disclaimer
 
-This template was created with the help of <a href="https://www.linkedin.com/in/jan-degen-1592b1176/" target="_blank">Jan Degen</a>
-and publicly accessible platforms such a <a href="https://registry.terraform.io/providers/hashicorp/aws/latest/docs" target="_blank">terraform.io</a>
+This template was created in collaboration with <a href="https://www.linkedin.com/in/jan-degen-1592b1176/" target="_blank">Jan Degen</a>
+and with help of publicly accessible platforms such a <a href="https://registry.terraform.io/providers/hashicorp/aws/latest/docs" target="_blank">terraform.io</a>
 and <a href="https://stackoverflow.com/" target="_blank">stackoverflow</a>.
 
 ## Prerequisites
