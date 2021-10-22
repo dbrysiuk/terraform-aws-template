@@ -75,11 +75,11 @@ The process for deploying infrastructure for all accounts is the same.
 
 ### Module 00_generic
 
-This module contains AWS Services that are required repeatedly. 
+This module contains AWS Services that are required repeatedly when creating other modules. 
 
 ### random.tf
 
-With the help of random class, a four-digit alphanumeric string is generated fo the unique identifier of the 
-AWS Services that created via Terraform
+With the help of random class, a four-digit alphanumeric string is generated for the unique identifier of the 
+AWS Services that created via Terraform.
 
 
