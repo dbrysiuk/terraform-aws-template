@@ -35,15 +35,14 @@ variable "db_password" {
 
 variable "project_version" {}
 
-variable "ami" {
-  description = "Amazon machine image for EC2 instance"
-  type = string
-  default = "ami-0987e67be9fa15a33"
-}
 variable "instance_type" {
   description = "EC2 instance type"
   type = string
-  default = "m4.large"
+  default = "t2.micro"
+}
+variable "key_name" {
+  description = "Name of key pair security credentials"
+  type = string
 }
 variable "db_instance_type" {
   description = "Database instance type"
@@ -60,4 +59,15 @@ variable "db_engine" {
   type = string
   default = "sqlserver-ex"
 }
-
+variable "vpc_id" {
+  description = "Virtual Private Cloud Network ID"
+  type = string
+}
+variable "subnet_ids" {
+  description = "Range of IP addresses in VPC"
+  type = list(string)
+}
+variable "security_group_ids" {
+  description = "Virtual Firewall"
+  type = list(string)
+}
