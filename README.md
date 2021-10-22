@@ -9,6 +9,12 @@ the Terraform state can be managed centrally for each environment using the remo
 - Add environments .tfvars-file located in env_vars
 - Manage AWS infrastructure by multiple users through remote backend
 
+## Disclaimer
+
+This template was created with the help of <a href="https://www.linkedin.com/in/jan-degen-1592b1176/" target="_blank">Jan Degen</a>
+and publicly accessible platforms such a <a href="https://registry.terraform.io/providers/hashicorp/aws/latest/docs" target="_blank">terraform.io</a>
+and <a href="https://stackoverflow.com/" target="_blank">stackoverflow</a>.
+
 ## Prerequisites
 
 You should have at least two AWS accounts.
@@ -74,12 +80,6 @@ This module contains AWS Services that are required repeatedly.
 ### random.tf
 
 With the help of random class, a four-digit alphanumeric string is generated fo the unique identifier of the 
-AWS Services that created via Terraform 
-
-## Disclaimer
-
-This template was created with the help of <a href="https://www.linkedin.com/in/jan-degen-1592b1176/" target="_blank">Jan Degen</a> 
-and publicly accessible platforms such a <a href="https://registry.terraform.io/providers/hashicorp/aws/latest/docs" target="_blank">terraform.io</a>
-and <a href="https://stackoverflow.com/" target="_blank">stackoverflow</a>. 
+AWS Services that created via Terraform
 
 
